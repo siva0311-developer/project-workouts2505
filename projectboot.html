@@ -20,14 +20,15 @@
   }
 
 .cc{
-  background-image: url("https://connectingnature.eu/sites/default/files/styles/large/public/webinar%231%20%28002%29%20web.jpg?itok=oz--t9n4");
+  background-image: url("https://erticonetwork.com/wp-content/uploads/2021/05/GREEN-CITY_chuttersnap-H8l6iXuzlHQ-unsplash-1280x640.jpg");
   background-attachment: fixed;
-  
+  border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
-  color: aliceblue;
-  height: 90vh;
-  filter: brightness(80%);
+ color: ghostwhite;
+  height: 80vh;
+ 
+  filter: brightness(100%);
 }
 .img-fluid3{
   background-image: url(https://bootstrapmade.com/demo/templates/Impact/assets/img/about-2.jpg);
@@ -56,12 +57,13 @@
       border-radius: 100px;
       width: 150px;
       height: 50px;
-      border: 2px solid ghostwhite;
-      opacity: 0.5;
+      border: 1px solid ghostwhite;
+      opacity: 0.7;
        }
        .btn-btn-success:hover{
         background-color:  rgb(0, 131, 116);
         
+
         
        
        }
@@ -168,16 +170,17 @@ text-align: left;
 }
  .butt{
   background-color:transparent ;
-  border: thin solid aliceblue;
-  color:aliceblue;
-  padding: 10px;
+  border:  thin solid ;
+  color:ghostwhite;
+  padding: 10px ;
+font-size: 18px;
  }
 
  .butt:hover{
   background-color: rgb(0,118,104);
-  border: none;
-  border-color: white;
+  border-color: rgb(0,118,104);
  }
+
 .viv{
 font-size: 40px;
 opacity: 0.4;
@@ -315,6 +318,19 @@ background-color: white;
  color: whitesmoke;
 
 }
+#fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(0, 131, 116);
+  border-radius: 40px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  margin-right: 15px;
+}
 .box5{
   width: 350px;
   height: 550px;
@@ -325,7 +341,7 @@ background-color: white;
 .box6{
   width: 350px;
   height: 620px;
-   
+   margin-top: -30px;
    
  padding: 30px;
  border:5px solid #008372;
@@ -362,6 +378,7 @@ opacity: 0.7;
   font-size: 60px;
   color: ghostwhite;
   background-color: rgb(0, 131, 116); 
+  
 }
 .raaw{
   padding: 10px 18px;
@@ -409,7 +426,10 @@ opacity: 0.7;
   position: relative;
   opacity: 0.5;
  }
- 
+ .card-text2:hover{
+color: rgb(0, 131, 116)
+ }
+
  </style>
 </head>
 
@@ -420,8 +440,8 @@ opacity: 0.7;
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6 text-center text-sm-start" style="padding: 2px;">
-            <i class="bi bi-envelope">&nbsp;contact@example.com</i>&nbsp;
-            <i style="font-size: 15px;" class="bi bi-phone">&nbsp;+1 5589 55488 55</i>
+            <span class="bi bi-envelope">&nbsp;contact@example.com</span>&nbsp;
+            <span style="font-size: 15px;" class="bi bi-phone">&nbsp;+1 5589 55488 55</span>
          
           </div>
           <div class="col-sm-6 text-end d-none d-sm-block opacity-75" style="padding: 2px;">
@@ -459,25 +479,25 @@ opacity: 0.7;
    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
      <ul class="navbar-nav">
        <li class="nav-item">
-         <a class="nav-link active text-light" aria-current="page" href="Home"><b>Home</b></a>
+         <a class="nav-link active text-light" aria-current="page" href="#Home"><b>Home</b></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link active text-light" href="About"><b>About</b></a>
+         <a class="nav-link active text-light" href="#About"><b>About</b></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link active text-light" href="Service"><b>Services</b></a>
+         <a class="nav-link active text-light" href="#Service"><b>Services</b></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link active text-light" href="portfolio"><b>Portfolio</b></a>
+         <a class="nav-link active text-light" href="#portfolio"><b>Portfolio</b></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link active text-light" href="Team"><b>Team</b></a>
+         <a class="nav-link active text-light" href="#Team"><b>Team</b></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link active text-light" href="Blog"><b>Blog</b></a>
+         <a class="nav-link active text-light" href="projectboot2.html"><b>Blog</b></a>
        </li>
        <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle active text-light" href="Dropdown" role="button"
+         <a class="nav-link dropdown-toggle active text-light" href="#Dropdown" role="button"
            data-bs-toggle="dropdown" aria-expanded="false">
            <b>Dropdown</b>
          </a>
@@ -492,7 +512,7 @@ opacity: 0.7;
          </ul>
        </li>
        <li class="nav-item">
-         <a class="nav-link active text-light" href="Contact"><b>Contact</b></a>
+         <a class="nav-link active text-light" href="#Contact"><b>Contact</b></a>
        </li>
      </ul>
    </nav>
@@ -503,6 +523,7 @@ opacity: 0.7;
  </section>
 
           <section>
+            <div id="Home">
           <div class="container-fluid white" style="background-color:rgb(0, 131, 116); ">
       <div class="container">
         <div class="row">
@@ -511,8 +532,6 @@ opacity: 0.7;
             <h1>Welcome To Impact</h1>
             <p style="font-size: medium;">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet.
               Eum quas beatae cumque eum quaerat.</p> &nbsp;&nbsp;
-              <!-- <button type="button" class="but">Get Started</button>&nbsp;&nbsp; -->
-            
             <div>
               <button type="button" class="btn-btn-success">Get-Started</button> &nbsp;&nbsp;
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle op" viewBox="0 0 16 16">
@@ -534,7 +553,9 @@ opacity: 0.7;
     </div>
 
     </div>
+  </div>
   </section>
+
  <section>
   <div class="container-fluid css">
     <div class="container">
@@ -561,9 +582,9 @@ opacity: 0.7;
     </div>
   </div>.
 </section>
-
+<div id="About">
 <div class=" ram">
-  <b>About</b> <br>
+  <b style="font-size: 40px;">About Us</b> <br>
   <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i> <br>
   <div style="font-size: 20px;">
  Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit <br><br>
@@ -597,6 +618,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div><br>
 
  </div>
+</div>
 </section>
 
 <section>
@@ -643,31 +665,36 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <section>
  <div class="container">
   <div class="row cc align-items-center">
-    <div class="col-12 text-center">
+  
+    <div class="col-12 text-center ">
+      
      <a href="https://www.youtube.com/results?search_query=aasa+kooda+song" class="bi bi-play-fill raw"></a><br>
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-play-fill raw" viewBox="0 0 16 16">
       
         <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
         </svg><br> -->
+        
 <b style="font-size: 40px;">Call To Action</b>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p style="font-size: 20px;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <button type="button" class="butt">Call To Action</button>
+
     </div>
      
-  </div><br><br>
+  </div> <br><br>
 
 </div>
 </section>
 <section>
+  <div id="Service">
 <div class="container">
   <div class="row">
-    <div class="col-md-12 col-md-6 about">
+    <div class="col-md-12 col-md-6 about" >
       <b>Our Services</b><br>
       <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i> <br>
       <p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> <br>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 shadow" style="border-color: white;">
             <i class="bi bi-activity you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
               <h5 class="card-title three">&nbsp;&nbsp;&nbsp;<b>Nesciunt Mete</b></h5><br>
@@ -676,7 +703,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 shadow" style="border-color: white;">
             <i class="bi bi-broadcast you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
               <h5 class="card-title three">&nbsp;&nbsp;&nbsp;<b>Eosle Commodi</b></h5><br>
@@ -685,16 +712,16 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 shadow" style="border-color: white;">
             <i class="bi bi-easel you"><i class="bi bi-circle-fill ohh"></i></i>
-            <div class="card-body">
+            <div class="card-body"> 
               <h5 class="card-title three">&nbsp;&nbsp;&nbsp;<b>Ledo Markt</b></h5><br>
               <p class="card-text" style="font-size: 16px;">&nbsp;&nbsp;&nbsp;Ut execepturi voluptatem nisi sed. Quidem <br>&nbsp; fuga consequatur.minus ea aut.vel qui id <br>&nbsp; voluptas adipisci eos earum corrupti <br> <br>&nbsp;&nbsp;Read more-></p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 shadow" style="border-color: white;">
             <i class="bi bi-bounding-box-circles you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
               <h5 class="card-title four">&nbsp;&nbsp;&nbsp;<b>Asperiores Commodit</b></h5> <br>
@@ -703,7 +730,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
           </div>  
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 shadow" style="border-color: white;">
             <i class="bi bi-calendar4-week you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
               <h5 class="card-title four">&nbsp;&nbsp;&nbsp;<b>Velit Doloremque</b></h5><br>
@@ -712,7 +739,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 shadow" style="border-color: white;">
             <i class="bi bi-chat-square-text you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
               <h5 class="card-title four">&nbsp;&nbsp;&nbsp;<b>Dolori Architecto</b></h5><br>
@@ -731,6 +758,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div><br><br>
 
 </div>
+</div>
 </section>
 <section>
 <div class="container">
@@ -742,7 +770,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" style="border-color: white;">
       <img class="pic" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/testimonials/testimonials-3.jpg" alt="">
       <div class="card-body">
         <h5 style="text-align: left;" class="card-title">Jena Karlis</h5>
@@ -757,7 +785,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" style="border-color: white;">
       <img class="pic" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/testimonials/testimonials-4.jpg" alt="">
       <div class="card-body">
         <h5 style="text-align: left;" class="card-title">Matt Brandon</h5>
@@ -773,7 +801,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" style="border-color: white;">
       <img class="pic" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/testimonials/testimonials-5.jpg" alt="">
       <div class="card-body">
         <h5 style="text-align: left;" class="card-title">John Larson</h5>
@@ -796,6 +824,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 </section>
 
 <section>
+  <div id="portfolio">
 <div class="container">
   <div class="row">
 <div class="col-md-12 col-md-6 about">
@@ -805,7 +834,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <p  style="font-size: 20px;"><b> All</b>&nbsp;&nbsp;&nbsp;<b>App</b>&nbsp;&nbsp;&nbsp;<b>Product</b>&nbsp;&nbsp;&nbsp;<b>Branding</b>&nbsp;&nbsp;&nbsp;<b>Book</b></p>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" >
      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-1.jpg">
       <div class="card-body">
         <h5 class="card-title">App 1</h5>
@@ -814,7 +843,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-1.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Product 1</h5>
@@ -823,7 +852,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" >
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-1.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Branding 1</h5>
@@ -832,7 +861,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-1.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Book 1</h5>
@@ -841,7 +870,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">App 2</h5>
@@ -850,7 +879,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" >
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Product 2</h5>
@@ -859,7 +888,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Branding 2</h5>
@@ -868,7 +897,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Book 2</h5>
@@ -877,7 +906,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">App 3</h5>
@@ -886,7 +915,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Product 3</h5>
@@ -895,7 +924,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Branding 3</h5>
@@ -904,7 +933,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow">
       <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Book 3</h5>
@@ -914,8 +943,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   </div><br><br>
 </div>
-</section> 
+</div>
+</section>
+
 <section>
+  <div id="Team">
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-md-6 about">
@@ -924,7 +956,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" style="border-color: white;">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-1.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
         <h5 class="card-title" style="text-align: center;"><b>Walter White</b></h5>
@@ -937,7 +969,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" style="border-color: white;">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-2.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
         <h5 class="card-title"  style="text-align: center;"><b>Sarah Jhinson</b></h5>
@@ -950,7 +982,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" style="border-color: white;">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-3.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
         <h5 class="card-title"  style="text-align: center;"><b>William Anderson</b></h5>
@@ -968,8 +1000,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
 
 </div>
+</div>
 </section>
+
 <section>
+  
 <div class="container">
   <div class="row">
     <div class="col-md-12 about">
@@ -977,7 +1012,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i> <br>
 <p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
 <div class="card-group">
-  <div class="box5 shadow ">
+  <div class="box5 shadow">
     <div class="card-body">
       <h5 class="card-title"> Free Plan</h5>
       <i style="color: white;" class="bi bi-box emo"></i>
@@ -991,7 +1026,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <button style="font-size: 15px;  " class="buto"><b>Buy Now</b></button>
     </div>
   </div> <br>
-  <div class="box6 shadow " >
+  <div class="box6 shadow">
    
     <div class="card-body">
       
@@ -1009,7 +1044,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     
     </div>
   </div><br>
-  <div class="box7 shadow  ">
+  <div class="box7 shadow">
     
     <div class="card-body">
       <h5 class="card-title">Developer Plan</h5>
@@ -1032,6 +1067,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 </div><br><br>
 </div>
 </section>
+
 <section>
 <div class="container">
   <div class="row">
@@ -1120,6 +1156,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 </section>
 
 <section>
+  <div id="Blog">
 <div class="container">
   <div class="row">
   <div class="col-12 col-6 about">
@@ -1128,11 +1165,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> <br>
 <div class="row row-cols-1 row-cols-md-3 g-4 ">
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" >
       <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-1.jpg">
       <div class="card-body">
         <h6 class="op" style="font-size: 15px; text-align: start;" >Politics</h5>
-          <p class="card-text" style="font-size: 20px;"><b>Dolorum optio tempore<br>voluptas dignissimos</b></p> <br>
+          <p class="card-text2" style="font-size: 20px;"><b>Dolorum optio tempore<br>voluptas dignissimos</b></p> <br>
         <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author.jpg"> 
         <p style="font-size: 15px;margin-left: 80px; margin-top: -50px;"><b>Maria Doe</b></p>
       <p class="op" style="font-size: 15px; margin-left: 80px; margin-top: -10px;">Jan 1, 2022</p>
@@ -1140,11 +1177,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" >
       <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-2.jpg">
       <div class="card-body">
         <h5 class="op" style="font-size: 15px;">Sports</h5>
-        <p class="card-text" style="font-size: 20px;"><b>Nisi magni odit<br>consequatur autem nulla<br> dolorem</b></p> <br>
+        <p class="card-text2" style="font-size: 20px;"><b>Nisi magni odit<br>consequatur autem nulla<br> dolorem</b></p> <br>
         <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author-2.jpg" >
         <p style="font-size: 15px;margin-left: 80px; margin-top: -50px;"><b>Allisa Mayer</b></p>
         <p class="op" style="font-size: 15px; margin-left: 80px; margin-top: -10px;">Jun 5, 2022</p>
@@ -1153,11 +1190,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 shadow" >
       <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-3.jpg" >
       <div class="card-body">
         <h5 class="op" style="font-size: 15px;">Entertainment</h5>
-        <p class="card-text" style="font-size: 20px;"> <b>Possimus soluta ut id<br>suscipit ea ut in quo quia et<br>soluta</b></p> <br>
+        <p class="card-text2" style="font-size: 20px;"> <b>Possimus soluta ut id<br>suscipit ea ut in quo quia et<br>soluta</b></p> <br>
         <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author-3.jpg" >
         <p style="font-size: 15px;margin-left: 80px; margin-top: -50px;"><b>Mark Dower</b></p>
         <p class="op" style="font-size: 15px; margin-left: 80px; margin-top: -10px;">Jun 22, 2022</p>
@@ -1170,8 +1207,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 </div>
 </div>
 </div>
+</div>
 </section>
+
  <section>
+  <div id="Contact">
  <div class="container"> 
   <div class="row">
     <div class="col-12 about">
@@ -1237,6 +1277,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
 </div><br><br>
 </div>
+</div>
 </section>
 
 <section>
@@ -1291,6 +1332,12 @@ United States</p><br>
  </div>
 </section>
 
+<section>
+  <div class="container-fluid" style="background-color: rgb(0, 131, 116);">
+    <i class="bi bi-arrow-up-short" id="fixed"></i><br>
+  </div>
+  
+</section>
 </body>
 </html>
 
